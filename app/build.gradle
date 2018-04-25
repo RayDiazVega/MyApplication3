@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+    dataBinding {
+        enabled true
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.myhexaville.tictactoe"
+        minSdkVersion 16
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+kapt {
+    generateStubs = true
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    api "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    api 'com.facebook.android:facebook-android-sdk:4.16.1'
+    api 'io.reactivex.rxjava2:rxjava:2.0.5'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //noinspection GradleCompatible
+    api "com.android.support:appcompat-v7:$support_version"
+    api "com.android.support:design:$support_version"
+    api 'com.google.firebase:firebase-database:15.0.0'
+    api 'com.google.firebase:firebase-messaging:15.0.0'
+    api 'com.google.firebase:firebase-auth:15.0.0'
+    api 'com.squareup.okhttp3:okhttp:3.9.1'
+    api 'com.android.support.constraint:constraint-layout:1.1.0'
+    kapt 'com.android.databinding:compiler:3.1.2'
+}
+apply plugin: 'com.google.gms.google-services'
