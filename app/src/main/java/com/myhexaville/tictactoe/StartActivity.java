@@ -34,6 +34,7 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(LOG_TAG, "onCreate() Actividad creada exitosamente");
         binding = DataBindingUtil.setContentView(this, R.layout.activity_start);
     }
 

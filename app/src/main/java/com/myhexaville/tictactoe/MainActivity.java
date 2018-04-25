@@ -3,6 +3,7 @@ package com.myhexaville.tictactoe;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.google.firebase.database.FirebaseDatabase;
 import com.myhexaville.tictactoe.databinding.ActivityMainBinding;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(LOG_TAG, "onCreate() Actividad creada exitosamente");
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         Bundle extras = getIntent().getExtras();
         String type = extras.getString("type");
@@ -25,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
             String gameId = extras.getString("gameId");
             binding.canvas.setGameId(gameId);
             binding.canvas.setMe(extras.getString("me"));
-
             FirebaseDatabase.getInstance().getReference().child("games")
                     .child(gameId)
                     .setValue(null);

@@ -358,13 +358,13 @@ public class Board extends FrameLayout {
 
                     if (victory.winner == ME) {
                         text.setTextColor(Color.parseColor("#4CAF50"));
-                        text.setText("YOU WIN!");
+                        text.setText("Ganaste!");
                     } else if (victory.winner == ENEMY) {
                         text.setTextColor(Color.parseColor("#FF5722"));
-                        text.setText("YOU LOOSE!");
+                        text.setText("Perdiste!");
                     } else if (victory.winner == DRAFT) {
                         text.setTextColor(Color.parseColor("#9E9E9E"));
-                        text.setText("DRAFT");
+                        text.setText("Empate");
                     }
 
                     text.animate().scaleY(1f).scaleX(1f).setListener(new AnimatorListenerAdapter() {

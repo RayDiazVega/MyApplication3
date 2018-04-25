@@ -15,7 +15,7 @@ public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService {
     private static final String LOG_TAG = "MyFirebaseInstanceId";
     @Override
     public void onTokenRefresh() {
-        Log.d(LOG_TAG, "onTokenRefresh: ");
+        Log.d(LOG_TAG, "onTokenRefresh Actividad creada exitosamente");
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
         if (currentUser == null || currentUser.isAnonymous()) {

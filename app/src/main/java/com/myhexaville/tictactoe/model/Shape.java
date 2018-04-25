@@ -8,6 +8,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.util.Log;
 
 import com.myhexaville.tictactoe.R;
 
@@ -31,7 +32,7 @@ public class Shape {
     public Shape(Context context) {
         bitmapBrushYellow = BitmapFactory.decodeResource(context.getResources(), R.drawable.brush2);
         bitmapBrushBlue = BitmapFactory.decodeResource(context.getResources(), R.drawable.brush2blue);
-
+        Log.d(LOG_TAG, "Shape Actividad creada exitosamente");
         src = new Rect(0, 0, bitmapBrushYellow.getWidth() - 1, bitmapBrushYellow.getHeight() - 1);
         brushSize = (int) (context.getResources().getDisplayMetrics().density * BRUSH_SIZE_IN_DP);
         dest = new Rect();
