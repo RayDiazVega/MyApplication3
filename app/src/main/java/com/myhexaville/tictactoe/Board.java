@@ -1,6 +1,5 @@
 package com.myhexaville.tictactoe;
 
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;

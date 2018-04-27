@@ -28,7 +28,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:text="RESTART"
+        android:text="@string/reiniciar"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="32dp"
         style="@style/Widget.AppCompat.Button.Borderless"
