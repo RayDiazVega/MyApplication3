@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "245188738884",
-    "firebase_url": "https://tictactoe-64902.firebaseio.com",
-    "project_id": "tictactoe-64902",
-    "storage_bucket": "tictactoe-64902.appspot.com"
+    "project_number": "392843759123",
+    "firebase_url": "https://tic-tac-toe-3-4211a.firebaseio.com",
+    "project_id": "tic-tac-toe-3-4211a",
+    "storage_bucket": "tic-tac-toe-3-4211a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:245188738884:android:c195a095c7650e8f",
+        "mobilesdk_app_id": "1:392843759123:android:73ea820a122d1eca",
         "android_client_info": {
-          "package_name": "com.myhexaville.tictactoe"
+          "package_name": "com.ceisutb.tictactoe"
         }
       },
       "oauth_client": [
         {
-          "client_id": "245188738884-tota5mu5r3m9mfjsf1svbg0gjhc3njrv.apps.googleusercontent.com",
+          "client_id": "392843759123-sftm1nk51a3he6ock19l9m71bhqf18jn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ceisutb.tictactoe",
+            "certificate_hash": "080434bdfdf6df5c82dd3fbc067c791ab8d439d6"
+          }
+        },
+        {
+          "client_id": "392843759123-eh3gv7t5abu8ah4l685b9jdkici4r3jp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC_OVooHG6p-mAjWdY1x72ijbzzoNFpkRw"
+          "current_key": "AIzaSyCevRB4ZEtMnI2RuHwvrbPbcKTrW13KMmI"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392843759123-eh3gv7t5abu8ah4l685b9jdkici4r3jp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
