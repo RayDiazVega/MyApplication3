@@ -13,7 +13,7 @@ Para aumentar la dificultad del juego se puede ampliar la cuadrícula y converti
 Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, reiniciar la partida, llevar un registro de victorias y cambiar el tema de la aplicación.
 
 <h1>Capturas</h1>
-<table style="width:100%">
+<table style="width:100%" border="0">
   <tr>
     <th>Inicio</th>
     <th>Tablero</th> 
