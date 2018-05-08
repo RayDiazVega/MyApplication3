@@ -11,3 +11,4 @@ Cuando todos los espacios están llenos se termina la partida, que puede termina
 Para aumentar la dificultad del juego se puede ampliar la cuadrícula y convertirlo en un 'cuatro en raya', incluso personalizar el tamaño de la cuadrícula para ampliar aún más la cuadricula y aumentar la dificultad.
 
 Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, reiniciar la partida, llevar un registro de victorias y cambiar el tema de la aplicación.
+<img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805339.png" alt="Mountain View">
