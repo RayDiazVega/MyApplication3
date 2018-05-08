@@ -15,8 +15,15 @@ Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, 
 <h1>Capturas</h1>
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805339.png" alt="Mountain View"></td>
-    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805749.png" alt="Mountain View"></td>
-    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805761.png" alt="Mountain View"></td>
-    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805780.png" alt="Mountain View"></td>  </tr>
+    <th>Inicio</th>
+    <th>Tablero</th> 
+    <th>Partida perdida</th>
+    <th>Partida ganada</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805339.png"></td>
+    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805749.png"></td>
+    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805761.png"></td>
+    <td><img src="https://github.com/Aztrarok/MyApplication3/blob/master/Screenshot_1525805780.png"></td>
+  </tr>
 </table>
