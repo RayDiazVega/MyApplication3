@@ -21,7 +21,7 @@ android {
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         applicationId "com.ceisutb.tictactoe"
-        minSdkVersion 16
+        minSdkVersion 22
         targetSdkVersion 27
         versionCode 1
         versionName "3.0"
