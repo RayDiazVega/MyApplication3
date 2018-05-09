@@ -8,9 +8,7 @@ Se debe conseguir realizar una línea recta o diagonal por símbolo. Si el jugad
 
 Cuando todos los espacios están llenos se termina la partida, que puede terminar con un ganador o bien en empate, que suele ser lo más habitual una vez se conoce la mecánica del juego.
 
-Para aumentar la dificultad del juego se puede ampliar la cuadrícula y convertirlo en un 'cuatro en raya', incluso personalizar el tamaño de la cuadrícula para ampliar aún más la cuadricula y aumentar la dificultad.
-
-Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, reiniciar la partida, llevar un registro de victorias y cambiar el tema de la aplicación.
+Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, reiniciar la partida y llevar un registro de victorias.
 
 <h1>Capturas</h1>
 <table style="width:100%" border="0">
