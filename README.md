@@ -32,5 +32,5 @@ Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, 
 <h1>Política de privacidad de Tic Tac Toe</h1>
 Esta aplicación en ningún momento accede a datos personales del usuario, por tanto, este está exento de perder algún tipo de información personal.
 <h1>APK VERSIÓN RELEASE</h1>
-<a href="https://github.com/Aztrarok/MyApplication3/blob/master/app-release.apk">link text</a>
+<a href="View Raw">Link del juego</a>
 
