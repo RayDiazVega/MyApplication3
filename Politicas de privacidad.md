@@ -2,4 +2,4 @@
 
 Esta aplicación en ningún momento accede a datos personales del usuario, por tanto, este está exento de perder algún tipo de información personal.
 
-Esta aplicacion no tiene ningun fin de lucro, todas las imagenes utilizadas tienen un fin meramente educativo y mantienen la propiedad de sus autores.
+Esta aplicacion no tiene ningun fin de lucro, todas las imagenes utilizadas tienen un fin meramente educativo y mantienen la propiedad de sus autores. Asi que por favor no me demanden.
