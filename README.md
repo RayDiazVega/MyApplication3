@@ -31,7 +31,7 @@ Incluir la opción de poder jugar tanto con la máquina, como con otro jugador, 
 <img src="https://github.com/Aztrarok/MyApplication3/blob/master/banner.png">
 <h1>Política de privacidad de Tic Tac Toe</h1>
 Esta aplicación en ningún momento accede a datos personales del usuario, por tanto, este está exento de perder algún tipo de información personal.
-Esta aplicacion no tiene ningun fin de lucro, todas las imagenes utilizadas tienen un fin meramente educativo y mantienen la propiedad de sus autores. Asi que por favor no me demanden.
+Esta aplicacion no tiene ningun fin de lucro, todas las imagenes utilizadas tienen un fin meramente educativo y mantienen la propiedad de sus autores.
 <h1>APK VERSIÓN RELEASE</h1>
 <a href="https://github.com/Aztrarok/MyApplication3/blob/master/app-release.apk?raw=true">Link del juego</a>
 
